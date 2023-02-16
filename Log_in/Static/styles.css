@@ -1,0 +1,136 @@
+body{
+    margin:0;
+    background-color: rgb(241, 241, 241);
+    /* background-color:rgba(249, 249, 249, 0.595); */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    width:320px;
+    height: 334px;
+    /* border:2px solid black; */
+
+    display:flex;
+    justify-content: center;
+
+    margin:auto;
+    margin-top:30px;
+    padding:3px 9px 9px 9px;
+
+    position: relative;
+
+}
+.title{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.container{
+    width:320px;
+    height:282px;
+    
+    border-radius:8px ;
+
+    background-color: #ffffff;
+    
+
+    position:absolute;
+    bottom:0;
+
+   
+}
+
+.item-email,.item-password{
+    
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-right:24px;
+
+    width:272px;
+    height:56px;
+}
+
+::placeholder{
+    opacity: 1;
+    color: #111;
+    font-size: 14px;
+    font-weight: 400;
+}
+.id-email,.id-password{
+    border:1px solid #eee;
+    border-radius:4px;
+
+    width:272px;
+    height:32px;
+    margin-top: 8px;
+}
+.txt-email,.txt-password{
+    font-size: 14px;
+    font-weight: 400;
+}
+/* .item-password{
+    
+    width:272px;
+    height:56px;
+
+    position:relative;
+    top: 24px;
+
+} */
+.forgot{
+    font-size: 14px;
+    font-weight: 400;
+    position:absolute;
+    right:24px;
+}
+
+.new:link, .new:visited{
+    color:#007aff;
+    text-decoration: none;
+
+}
+
+.new:hover,.new:active{
+    color:#007aff;
+    text-decoration:none;
+}
+
+.button{
+    width: 272px;
+    height:34px;
+    border-radius:8px;
+    background-color: #007aff;
+
+    position:absolute;
+    top:184px;
+    left:24px;
+
+    
+}
+
+.newlogin:link,.newlogin:visited{
+    font-size: 16px;
+    font-weight: 700;
+    position:relative;
+    left:114px;
+    top:8px;
+    color:#ffffff !important;
+    text-decoration: none;
+    
+}
+.newlogin:hover,.newlogin:active{
+    font-size: 16px;
+    font-weight: 700;
+    position:relative;
+    left:114px;
+    top:8px;
+    color:#ffffff !important;
+    
+}
+
+.account{
+    position:absolute;
+    top:242px;
+    left:24px;
+
+    font-size: 14px;
+}
