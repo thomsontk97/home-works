@@ -5,6 +5,7 @@ body{
     background-color: rgb(241, 241, 241);
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
@@ -63,6 +64,9 @@ body{
     height:24px;
 
     border:1px solid #eee;
+
+    border-radius: 5px;
+    box-shadow:2px 2px 2px darkgray;
   
 }
 .line{
