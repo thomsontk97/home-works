@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+.container{
+    background-color:rgba(0, 0, 0, 0.94);
+    color: #e8e8edd1;
+    width:100%;
+    min-width:320px;
+    height:48px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.item{
+    padding:12px 18px;
+}
+.item:hover{
+background-color:antiquewhite;
+color:black;
+cursor:pointer;
+}
+#icon{
+    font-size: 24px !important;
+    color: antiquewhite !important;
+}
+#icon:hover{
+    background-color:antiquewhite !important;
+color:black !important;
+}
