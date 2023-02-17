@@ -1,0 +1,95 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin:0;
+    background-color: rgb(241, 241, 241);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.root-container{
+    width:350px;
+    height: 334px;
+
+    
+
+    margin-top: 30px;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width:320px;
+    height:295px;
+    
+   
+
+    border-radius: 8px;
+
+    display:flex;
+    flex-flow:column wrap;
+    justify-content:space-evenly;
+    align-items: center;
+
+    background-color:#ffffff;
+
+    
+
+}
+.title{
+    font-size:24px;
+    padding-bottom: 10px;
+}
+
+.box-email,.box-password{
+    width:272px;
+    height:56px;
+
+   
+
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content:space-between;
+}
+
+.inpt-email,.inpt-pass{
+    width:265px;
+    height:24px;
+
+    border:1px solid #eee;
+  
+}
+.line{
+    display:flex;
+    justify-content: space-between;
+}
+
+a:link,a:visited{
+    text-decoration:none;
+    color:#007aff;
+}
+a:hover,a:active{
+    text-decoration: none;
+    color: #437ab4;
+}
+
+button{
+    padding:8px 120px;
+    font-size:16px;
+    font-weight: 700 !important;
+    color:#ffffff;
+    background-color: #007aff;
+    border:0;
+    border-radius: 8px;
+
+}
+.account{
+    width:272px;
+    font-size: 14px;
+}
