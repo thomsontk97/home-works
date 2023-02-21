@@ -79,7 +79,7 @@
     width:8px;
     background-color:darkgray;
 
-    animation:reverse1 10s 2s infinite linear;
+    animation:reverse1 8s 2s infinite linear;
     
 }
 @keyframes reverse1{
