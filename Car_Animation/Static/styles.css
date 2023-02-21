@@ -71,7 +71,7 @@
 }
 
 .post{
-    /* z-index:2; */
+    z-index:2;
     right:15px;
     top:10px;
     position:absolute;
