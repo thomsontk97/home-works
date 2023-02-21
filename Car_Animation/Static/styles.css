@@ -78,10 +78,20 @@
     height:80px;
     width:8px;
     background-color:darkgray;
-    animation:straight 8s 2s infinite linear;
-    animation-direction: reverse;
-}
 
+    animation:reverse1 10s 2s infinite linear;
+    
+}
+@keyframes reverse1{
+    from{
+        right:15px;
+        top:10px;
+    }
+    to{
+        right:1350px;
+        top:10px;
+    }
+}
 @keyframes straight{
     from{
         left:0px;
