@@ -1,0 +1,94 @@
+.car{
+    width:200px;
+    height:100px;
+
+    
+}
+
+.car-animation{
+    position:absolute;
+    left:0px;
+    top:0px;
+
+    animation:straight 8s 2s infinite linear;
+}
+
+.wheel-1{
+    position:absolute;
+    left:17px;
+    top:50px;
+
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+
+    animation:turns1 2s 2s infinite linear;
+    
+
+}
+.wheel-2{
+    position:absolute;
+    left:140px;
+    top:50px;
+
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+
+    animation:turns2 2s 2s infinite linear;
+    
+}
+
+@keyframes turns1 {
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+
+    }
+}
+
+@keyframes turns2 {
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+
+    }
+}
+
+
+
+.road{
+    position:absolute;
+    width:100%;
+    height:8px;
+    background-color: black;
+    top:84px;
+    z-index:3;
+}
+
+.post{
+    z-index:2;
+    right:15px;
+    top:10px;
+    position:absolute;
+    height:80px;
+    width:8px;
+    background-color:darkgray;
+    animation:straight 8s 2s infinite linear;
+    animation-direction: reverse;
+}
+
+@keyframes straight{
+    from{
+        left:0px;
+        top:0px;
+    }
+    to{
+        left:1350px;
+        top:0px;
+    }
+}
