@@ -10,7 +10,7 @@
     left:0px;
     top:0px;
 
-    animation:straight 8s 2s infinite linear;
+    animation:straight 10s 2s infinite linear;
 }
 
 .wheel-1{
@@ -88,7 +88,7 @@
         top:10px;
     }
     to{
-        right:1350px;
+        right:1550px;
         top:10px;
     }
 }
